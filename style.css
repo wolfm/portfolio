@@ -1,0 +1,171 @@
+/* --- Main --- */
+
+body{
+    margin-bottom: 2em;
+}
+
+h3 {
+    margin-bottom: 1em
+}
+
+.container-fluid {
+    max-width: 1440px;
+}
+
+/* --- Timeline --- */
+
+.timeline {
+    position: relative;
+}
+
+/* Timeline line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 4px;
+    background: #f2f3f7;
+    top: 20px;
+    bottom: 0px;
+    margin-left: 18.5px;
+    z-index: -1;
+    bottom: -15px;
+}
+
+.timeline-row {
+    margin-bottom: 1em;
+}
+
+.timeline-textbox {
+	position: relative;
+	background-color: #f2f3f7;
+    border-radius: .4em;
+    margin-left: 60px;
+    padding: 1.5em;
+}
+
+/* Textbox Arrow */
+.timeline-textbox:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-right-color: #f2f3f7;
+	border-left: 0;
+	margin-top: -9px;
+	margin-left: -9px;
+}
+
+.timeline-circle {
+    width: 40px;
+    height:40px;
+    box-shadow: 0 0 0 4px #f2f3f7;
+    line-height: 40px;
+    float: left;
+}
+
+/* --- Courses --- */
+.course-row {
+
+}
+
+.course-circle {
+    width: 80px;
+    height: 80px;
+    float: left;
+    box-shadow: 0 0 0 4px #f2f3f7;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.course-textbox {
+	position: relative;
+	background-color: #f2f3f7;
+    border-radius: .4em;
+    margin-left: 101px;
+    padding: 1.5em;
+}
+
+/* Textbox Arrow */
+.course-textbox:after {
+	content: '';
+	position: absolute;
+	left: 0.5px;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-right-color: #f2f3f7;
+	border-left: 0;
+	margin-top: -9px;
+	margin-left: -9px;
+}
+
+/* Material Design Icons */
+.mdi::before {
+    font-size: 24px;
+    line-height: 14px;
+}
+.btn .mdi::before {
+    position: relative;
+    top: 4px;
+}
+.btn-xs .mdi::before {
+    font-size: 18px;
+    top: 3px;
+}
+.btn-sm .mdi::before {
+    font-size: 18px;
+    top: 3px;
+}
+.dropdown-menu .mdi {
+    width: 18px;
+}
+.dropdown-menu .mdi::before {
+    position: relative;
+    top: 4px;
+    left: -8px;
+}
+.nav .mdi::before {
+    position: relative;
+    top: 4px;
+}
+.navbar .navbar-toggle .mdi::before {
+    position: relative;
+    top: 4px;
+    color: #FFF;
+}
+.breadcrumb .mdi::before {
+    position: relative;
+    top: 4px;
+}
+.breadcrumb a:hover {
+    text-decoration: none;
+}
+.breadcrumb a:hover span {
+    text-decoration: underline;
+}
+.alert .mdi::before {
+    position: relative;
+    top: 4px;
+    margin-right: 2px;
+}
+.input-group-addon .mdi::before {
+    position: relative;
+    top: 3px;
+}
+.navbar-brand .mdi::before {
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+.list-group-item .mdi::before {
+    position: relative;
+    top: 3px;
+    left: -3px
+}
