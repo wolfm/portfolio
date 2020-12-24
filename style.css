@@ -39,6 +39,12 @@ button:hover {
     border-radius: .4em;
     margin: 0px 15px 30px 15px;
     padding: 1.5em;
+    transition-duration: 0.2s;
+}
+
+a.textbox {
+    background-color: lightgray;
+    cursor: pointer;
 }
 
 .textbox p {
