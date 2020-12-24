@@ -12,6 +12,39 @@ h3 {
     max-width: 1440px;
 }
 
+ul {
+    margin-bottom: 0px;
+}
+
+/* Buttons */
+button {
+    border-radius: 12px;
+    background: none;
+    border-style: solid;
+    border-color: darkgray;
+    padding: 7px 14px;
+    font-size: 16px;
+    transition-duration: 0.05s;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: gray;
+}
+
+/* --- General Textbox --- */
+.textbox {
+	position: relative;
+	background-color: #f2f3f7;
+    border-radius: .4em;
+    margin: 0px 15px 30px 15px;
+    padding: 1.5em;
+}
+
+.textbox p {
+    margin-bottom: 0px;
+}
+
 /* --- Timeline --- */
 
 .timeline {
@@ -68,9 +101,6 @@ h3 {
 }
 
 /* --- Courses --- */
-.course-row {
-
-}
 
 .course-circle {
     width: 80px;
@@ -104,68 +134,4 @@ h3 {
 	border-left: 0;
 	margin-top: -9px;
 	margin-left: -9px;
-}
-
-/* Material Design Icons */
-.mdi::before {
-    font-size: 24px;
-    line-height: 14px;
-}
-.btn .mdi::before {
-    position: relative;
-    top: 4px;
-}
-.btn-xs .mdi::before {
-    font-size: 18px;
-    top: 3px;
-}
-.btn-sm .mdi::before {
-    font-size: 18px;
-    top: 3px;
-}
-.dropdown-menu .mdi {
-    width: 18px;
-}
-.dropdown-menu .mdi::before {
-    position: relative;
-    top: 4px;
-    left: -8px;
-}
-.nav .mdi::before {
-    position: relative;
-    top: 4px;
-}
-.navbar .navbar-toggle .mdi::before {
-    position: relative;
-    top: 4px;
-    color: #FFF;
-}
-.breadcrumb .mdi::before {
-    position: relative;
-    top: 4px;
-}
-.breadcrumb a:hover {
-    text-decoration: none;
-}
-.breadcrumb a:hover span {
-    text-decoration: underline;
-}
-.alert .mdi::before {
-    position: relative;
-    top: 4px;
-    margin-right: 2px;
-}
-.input-group-addon .mdi::before {
-    position: relative;
-    top: 3px;
-}
-.navbar-brand .mdi::before {
-    position: relative;
-    top: 2px;
-    margin-right: 2px;
-}
-.list-group-item .mdi::before {
-    position: relative;
-    top: 3px;
-    left: -3px
 }
