@@ -11,8 +11,9 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css"/>
 
-        <!-- Material Icons -->
-        <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css">
+        <!-- Icons -->
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
 
         <title>Michael Wolf</title>
         <meta name="author" content="Michael Wolf">
@@ -31,9 +32,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Intro <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Skills</a>
-                    <a class="nav-link" href="#">Experience</a>
                     <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Education</a>
+                    <a class="nav-link" href="#">Experience</a>
                 </div>
             </div>
         </nav>
@@ -48,6 +49,7 @@
                     <div class="col text-center text-md-left">
                         <h1 class="display-4">Michael Wolf</h1>
                         <p class="lead">Software Developer and Engineer</p>
+                        <a href="https://github.com/wolfm" target="_blank"><button class="lead"> <span class="iconify" data-icon="mdi-github" style="font-size: 150%;"></span> Github</button></a>
                     </div>
                 </div>
             </div>
@@ -57,9 +59,47 @@
         <!-- Portfolio -->
         <div class="container-fluid">
             <div class="row">
-                <!-- Areas of Interest and Project-->
+                <!-- Projects and Education-->
                 <div class="col-md">
-                    <!-- Areas of Interest-->
+
+                    <!-- Projects -->
+                    <h3> Projects </h3>
+                    <div class="row">
+                        <div class="col-sm textbox">
+                            <h5>Michigan Mars Rover Team</h5>
+                            <ul>
+                                <li>Researched and developed an inverse kinematics system for the robotic arm to improve end effector precision</li>
+                                <li>Upgraded the team’s website, mrover.org, using HTML, SASS, Javascript, and Jekyll for a professional online presence</li>
+                                <li>Develop GUI components for remote rover control</li>
+                                <li>Design the rover’s suspension, wheels, and robotic arm using carbon fiber, aluminum, and 3D-printed materials</li>
+                                <li>Grew team funding from $27,500 to $55,000 by meeting with current and prospective sponsors</li>
+                                <li>Oversaw all team media, website content, and social media. Oversaw video production that won first place.</li>
+                                <li>Led the business subteam, which aids in sponsorship acquisition and media production</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm textbox">
+                            <h5>mrover.org</h5>
+                            <p> The mrover.org public website </p>
+                        </div>
+                        <div class="col-sm textbox">
+                            <h5>obstacle detection</h5>
+                            <p>Object detection on aquatic images, based on Faster RCNN R101 from the Detectron2 Model Zoo.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm textbox">
+                            <h5>lightshow</h5>
+                            <p> Create and run animated light shows on WS2812B individually-addressable LED strips from a Raspberry Pi.  </p>
+                        </div>
+                        <div class="col-sm textbox">
+                            <h5>chaos-chess</h5>
+                            <p> Chess, but you can modify the rules. Built using Unity.  </p>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
                     <h3> Education </h3>
                     <h5> University of Michigan </h5>
                     <p> B.S.E. Computer Science Engineering, 2017-2021</p>
@@ -74,8 +114,23 @@
                         </div>
                     </div>
 
-                    <!-- Projects -->
-                    <h3> Projects </h3>
+                    <div class="course-row">
+                        <div class="course-circle rounded-circle" style="background-color: rgb(255, 167, 51);">
+                            <i class="mdi mdi-eye"></i>
+                        </div>
+                        <div class="course-textbox">
+                            <h3>Operating Systems</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-row">
+                        <div class="course-circle rounded-circle" style="background-color: rgb(165, 50, 241);">
+                            <i class="mdi mdi-eye"></i>
+                        </div>
+                        <div class="course-textbox">
+                            <h3>Web Systems</h3>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Experience-->
@@ -91,9 +146,9 @@
                                 <h5>Northrop Grumman - Systems Engineering Intern </h5>
                                 <p class="lead">Summer 2020</p>
                                 <ul class="font-weight-light">
-                                    <li>Drive the maturation of verification models to test software based on its requirements</li>
-                                    <li>Validate software tools, drivers, and scripts to ensure they match requirements</li>
-                                    <li>Program test cases to support requirement verification using Robot framework</li>
+                                    <li>Drove the maturation of software verification models</li>
+                                    <li>Validated software tools and scripts against requirements</li>
+                                    <li>Programmed test cases using Robot framework</li>
                                 </ul>
                             </div>
                         </div>
@@ -103,11 +158,11 @@
                                 <h5>NASA JPL - Engineering Intern </h5>
                                 <p class="lead">Summer 2019</p>
                                 <ul class="font-weight-light">
-                                    <li>Developed GUI application to measure radar’s beam properties by scanning across a ball located 500m away</li>
-                                    <li>Designed and assembled an azimuth-elevation gimbal for a 250lb radar system</li>
-                                    <li>Conceptualized a mirror actuation mechanism for an existing radar with minimal impact to the current radar design</li>
-                                    <li>Experimented with additive manufacturing to produce improved versions of test and calibration equipment</li>
-                                    <li>Developed the radar’s heater box design to prepare for test flight</li>
+                                    <li>Developed GUI application to measure radar beam properties</li>
+                                    <li>Designed azimuth-elevation gimbal for 250lb radar</li>
+                                    <li>Conceptualized actuation mechanism for existing radar, minimizing impact on current design</li>
+                                    <li>Improved calibration equipment using 3d printing
+                                    <li>Developed radar’s heater box design for test flight</li>
 
                                 </ul>
                             </div>
@@ -116,11 +171,12 @@
                             <div class="timeline-circle rounded-circle" style="background-color: #f9bf3f;"></div>
                             <div class="timeline-textbox">
                                 <h5>Dynics - Software Developer </h5>
-                                <p class="lead">Summer 2017-2018</p>
+                                <p class="lead">Summers 2017, 2018</p>
                                 <ul class="font-weight-light">
-                                    <li>Developed Human-Machine Interface GUI applications for controlling machines in customers’ factories</li>
-                                    <li>Developed a new integrated development environment in C# and XAML for such applications using Agile techniques</li>
-                                    <li>Traveled with a select team to a customer’s facility to deploy Dynics human-machine interface software</li>
+                                    <li>Developed new IDE in C# and XAML for customer applications</li>
+                                    <li>Practiced Agile development with 2-week sprints</li>
+                                    <li>Developed GUI applications for controlling customers’ factories</li>
+                                    <li>Traveled with select team to customer to deploy our application</li>
                                 </ul>
                             </div>
                         </div>
