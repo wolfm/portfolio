@@ -4,12 +4,10 @@ body{
     margin-bottom: 2em;
 }
 
-
 .portfolio-container {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 h3 {
     margin-bottom: 1em
@@ -24,7 +22,8 @@ ul {
     padding-left: 1em;
 }
 
-/* Buttons */
+/* --- Buttons --- */
+
 button {
     border-radius: 12px;
     background: none;
@@ -78,11 +77,6 @@ a.textbox {
     margin-left: 18.0px;
     z-index: -1;
     bottom: -30px;
-}
-
-.timeline-row {
-    /* margin-bottom: 1em;
-    */
 }
 
 .timeline-textbox {
