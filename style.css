@@ -22,6 +22,10 @@ ul {
     padding-left: 1em;
 }
 
+.jumbotron {
+    background-color: #f2f3f7;
+}
+
 /* --- Buttons --- */
 
 button {
