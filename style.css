@@ -5,7 +5,6 @@
     --accent-bg: #f2f3f7;
     --border-color: darkgray;
     --border-hover: gray;
-    --jumbotron-bg: #f2f3f7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +14,6 @@
         --accent-bg: #222222;
         --border-color: #666666;
         --border-hover: #999999;
-        --jumbotron-bg: #222222;
     }
 }
 
@@ -45,7 +43,9 @@ ul {
 }
 
 .jumbotron {
-    background-color: var(--jumbotron-bg);
+    background-color: var(--background-color);
+    padding: 2rem 2rem;
+    margin: 0rem;
 }
 
 /* --- Buttons --- */
